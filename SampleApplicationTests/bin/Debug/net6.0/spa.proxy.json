@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44427",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\sarba\\Downloads\\Tessting\\SampleApplication\\SampleApplication\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

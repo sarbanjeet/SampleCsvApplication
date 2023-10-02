@@ -1,0 +1,116 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #eaf4ff;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.statistics {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+mat-card-header {
+  background-color: #e0e0e0;
+}
+
+mat-card-title {
+  padding: 0 0 16px 0;
+}
+
+mat-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mat-mdc-card-header-text {
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.custom-card {
+  flex: 1;
+  margin: 12px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.label {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.value {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 calc(50% - 10px);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.statistics .row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.custom-card {
+  width: 40%;
+  padding: 0px;
+}
+
+.chart-section,
+.table-section {
+  margin-top: 20px;
+}
+.chart-section,
+.chart-controls{
+  margin-left: 2%;
+}
+
+input{
+  width: 100%;
+}
